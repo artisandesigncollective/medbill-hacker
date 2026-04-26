@@ -8,12 +8,12 @@
 | Bill Scanner (OCR simulation) | `frontend/BillScanner.tsx` |
 | Stripe $49 Checkout | `api/stripe_fee.ts` |
 | Demand Letter Generator | `api/generate_demand.ts` |
+| Phase 7: Last-Mile Dispatch (Mail/Fax) | `api/last_mile_dispatcher.ts` |
 
 ### ⬜ Planned
 - Real OCR integration (Tesseract or Google Vision API)
 - CMS Medicare Fee Schedule vectorized database
 - Itemized bill line-by-line comparison table
-- Auto-fax to hospital billing department via Lob API
 - Insurance company appeal letter variant
 
 ## Acceptance Criteria

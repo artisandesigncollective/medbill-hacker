@@ -81,12 +81,30 @@ export const BillScanner = () => {
               </div>
             </div>
             
-            <button 
-              onClick={handleSubmit}
-              className="w-full bg-rose-600 text-white font-black py-4 rounded-xl hover:bg-rose-700 transition text-lg shadow-lg shadow-rose-600/20"
-            >
-              Generate Legal Dispute Letter ($49)
-            </button>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <button 
+                onClick={handleSubmit}
+                className="w-full bg-slate-800 text-white font-black py-4 rounded-xl hover:bg-slate-900 transition text-lg"
+              >
+                Download PDF ($49)
+              </button>
+              
+              <button 
+                onClick={() => alert('Sovereign Dispatch: Certified Mail includes Proof of Service and Tracking. Proceeding to checkout ($59)...')}
+                className="w-full bg-rose-600 text-white font-black py-4 rounded-xl hover:bg-rose-700 transition text-lg shadow-lg shadow-rose-600/20 flex flex-col items-center gap-0"
+              >
+                <span>Mail it for me (Certified)</span>
+                <span className="text-[10px] font-normal opacity-80">Includes USPS Tracking • $59</span>
+              </button>
+            </div>
+
+            <div className="mt-4 flex items-center justify-center gap-4 text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+              <span>Secure OCR</span>
+              <span>•</span>
+              <span>HIPAA Compliant</span>
+              <span>•</span>
+              <span>Certified Delivery</span>
+            </div>
           </div>
         )}
 
