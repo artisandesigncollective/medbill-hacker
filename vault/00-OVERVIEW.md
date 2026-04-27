@@ -15,3 +15,6 @@
 - `frontend/BillScanner.tsx` — OCR scanner showing upcoding errors vs fair market price
 - `api/stripe_fee.ts` — $49 Stripe Checkout
 - `api/generate_demand.ts` — RAG engine drafting hospital dispute letters
+
+---
+?? **Sovereign Empire Hub:** [Master Index](file:///e:/hermes/github_fleet/EMPIRE_VAULT_INDEX.md) | [Command Center](file:///e:/hermes/github_fleet/paperclip-website/frontend/SovereignDashboard.tsx)
